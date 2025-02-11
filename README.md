@@ -1,10 +1,8 @@
 # Gopro-files-rename-utility
-A Python script that renames Gopro files
-
 
 This Python script converts GoPro's default naming format (e.g., GH011440.MP4) to a more intuitive format (e.g, 1440_1.MP4), which maintains chronological order of video parts. It creates renamed files in a new directory, and never modifies original files.
 
-Here is an example of what video filenames might look like with a GoPro. They are listed here in chronological order:
+Here is an example of what GoPro original video filenames look like. They are listed here in chronological order:
 ```
 GH011440.MP4 = video 1440 start
 GH011447.MP4 = video 1447 start
