@@ -16,8 +16,8 @@ The same files after running the script should look like this:
 ```
 GH011440.MP4 -> 1440_1.MP4
 GH011447.MP4 -> 1447_1.MP4
-GH011449.MP4 -> 1449_1.MP4
 GH021447.MP4 -> 1447_2.MP4
+GH011449.MP4 -> 1449_1.MP4
 GH021449.MP4 -> 1449_2.MP4
 GH031449.MP4 -> 1449_3.MP4
 ```
