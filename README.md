@@ -26,6 +26,13 @@ GH021449.MP4 -> 1449_2.MP4
 GH031449.MP4 -> 1449_3.MP4
 ```
 
+or this with `--merge` flag:
+```
+GH011440.MP4 -> 1440.MP4
+GH011447.MP4 + GH021447.MP4 -> 1447.MP4
+GH011449.MP4 + GH021449.MP4 + GH031449.MP4 -> 1449.MP4
+```
+
 ## Usage
 ### Basic File Renaming
 ```bash
@@ -44,6 +51,7 @@ python gopro_utility.py --input /path/to/videos --merge
 
 Files are combined using FFmpeg's stream copy, maintaining original quality
 
+
 ### Examples
 
 **Rename files only (no merging):**
@@ -55,7 +63,6 @@ python script.py --input ./gopro_videos
 ```bash
 python script.py --input ./gopro_videos --merge
 ```
-
 
 ## Installation
 
