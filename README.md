@@ -1,4 +1,4 @@
-# GoPro Video Processor
+# Gopro Files Rename Utility
 
 A Python utility to organize, rename, and optionally merge GoPro video files.
 
